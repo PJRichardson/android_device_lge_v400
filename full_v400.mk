@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/lge/v400/device.mk)
 
 ## Device identifier. This must come after all inclusions
